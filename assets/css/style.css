@@ -1,0 +1,338 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Karla';
+}
+
+h1, h2, h3, h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #454C5A;
+}
+
+h2 {
+  color: rgba(69, 76, 90, 1);
+}
+
+h3 {
+  font-size: 3em;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+p {
+  font-size: 1.9em;
+  text-align: justify;
+  line-height: 42px; 
+  color: #454c5a;
+  margin-bottom: 0;
+}
+
+.row {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.pad-section {
+  padding: 0px 0px;
+  color: #000000;
+}
+
+.subhead {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 7em;
+  text-align: center;
+}
+
+.self-e {
+  color: rgba(69, 76, 90, 1);
+}
+
+#navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: top 0.1s
+}
+
+.navbar-header .navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+#main {
+  background-image: url(../graphics/hike.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; 
+  background-size: cover;
+  width: auto;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.text-vcenter {
+    color: #AEB6BF;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.title {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  color: white;
+  font-size: 10vw; /*10em;*/
+  text-align: center;
+}
+
+.main-tag {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-size: 10px;
+  position: relative;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tagline {
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.research {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.android-link {
+  box-sizing: border-box;
+  margin-top: 
+  padding: 0;
+}
+
+.background1 {
+	height: 50px;
+  width: 100%;
+  top: -40px;
+  left: 0;
+  right: 0;
+  background-color: #f8e9e9;
+}
+
+.about-q {
+  color: rgba(69, 76, 90, 1);
+}
+
+.about-text {
+  text-align: left; 
+  line-height:42px;
+  font-size: 2em;
+  color: rgba(69, 76, 90, 0.8);
+}
+
+.about-answer {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 92%;
+}
+
+.diagonal {
+  background-color: #dddbf1;
+  bottom: 0;
+  width: 100%;
+  height: 3vw;
+}
+
+.d {
+	fill: #F8E9E9;
+}
+
+.how-row {
+  margin-bottom: 30px;
+  margin-top: ;
+}
+
+.how-experiments {
+  margin-bottom:30px;
+}
+
+.how-text {
+  font-size: 1.7em;
+	line-height: 32px;
+  margin: 0;
+  text-align: left;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+
+.how-row {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.how-label {
+  color: rgba(69, 76, 90, 1);
+  font-size: 2em;
+}
+
+.how-link {
+  font-size: 22px;
+  text-align: left;
+  float: left;
+  color: #7D9EB2;
+  margin: 0;
+  margin-bottom: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/ 
+}
+
+.how-res {
+  color: #8BB0C6;
+}
+
+.how-background {
+  background-color: #EFEEF8;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.wellbeing-img {
+  height: 100%;
+  vertical-align: middle;
+  margin: auto;
+  display: block;
+}
+
+.read-more {
+  margin-bottom: 20px;
+}
+
+.how-img {
+  border-radius: 15px;
+}
+
+.step-quote {
+  font-size: 1.8em;
+  margin: 60px auto;
+  color: rgba(69, 76, 90, 0.8);
+}
+
+.step-img {
+  margin-bottom: 50px;
+}
+
+.step-text {
+  text-align: center;
+  margin-top: 0px;
+  color: rgba(69, 76, 90, 0.8);
+}
+
+.var-exp {
+  margin-bottom: 70px;
+}
+
+.exp-img {
+  margin-bottom: 30px;
+}
+/*
+.glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+*/
+.headshot {
+  background-size: cover;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#team a {
+  color: #454c5a;
+}
+
+.phone-img {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.google-btn {
+  margin: auto;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.person {
+	margin-bottom: 25px;
+}
+
+.people {
+  padding-bottom: 0px;
+}
+
+.acknowledgement {
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 26px;
+}
+
+.foot {
+  color: #DDDBF1;
+  margin-top: 0;
+}
+
+.foot-pad {
+  margin-left: 15px;
+  padding-bottom: 5px;
+  background-color: #DDDBF1;
+}
+
+.text-left {
+	font-size: 14px;
+	line-height: 22px;
+  padding-top: 10px;
+}
