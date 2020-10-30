@@ -1,3 +1,2 @@
-# parksung123.github.io
-
-Github pages testing
+# SelfE Website for Introducing SelfE App
+SelfE, an app developed by Brown University's Human-Computer Interaction (HCI) Lab is a mobile app that tracks and advises user's healthy habits. Two other colleagues and I developed the SelfE website to promote the SelfE app. I got help from the two, one for finding icon resources, and the other for drawing figures on the website. You can find more information about the website and the app [here](https://selfe.cs.brown.edu/).  
